@@ -1,6 +1,6 @@
 // https://superheroapi.com/api/access-token/character-id
 
-const TOKEN = SUPER_API_KEY
+const TOKEN = process.env.API_SECRET
 const URL = `https://superheroapi.com/api.php/${TOKEN}`
 const heroBtn = document.getElementById("newHeroButton")
 const img = document.getElementById("heroImage")

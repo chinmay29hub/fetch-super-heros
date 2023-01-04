@@ -1,6 +1,5 @@
-// https://superheroapi.com/api/access-token/character-id
-
 import SUPER_HERO_API from "./apikey.js"
+// https://superheroapi.com/api/access-token/character-id
 
 const TOKEN = SUPER_HERO_API
 const URL = `https://superheroapi.com/api.php/${TOKEN}`
